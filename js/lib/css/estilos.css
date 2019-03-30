@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#mapid {
+  float:left;
+  width: 1000px;
+  height: 550px;
+}
+
+#h1 { color:blue;
+          text-align:center;
+          font-size:28px;
+          font-family:timesnewroman;
+          }
+
+#minimap {
+            land:'#FFFF00',
+            water:'#3333FF',
+            marker:'#000000',
+            topojsonSrc: 'path/to/world.json'
+          }
